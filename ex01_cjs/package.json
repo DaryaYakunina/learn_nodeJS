@@ -5,10 +5,10 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
-    "start": "node index.js",
-    "debug": "nodemon test.js"
+    "start": "node index.cjs",
+    "debug": "nodemon index.cjs"
   },
   "dependencies": {
     "dotenv": "^17.3.1"

@@ -1,14 +1,14 @@
 {
-  "name": "ex02_mjs",
+  "name": "ex03_js",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.mjs",
-    "debug": "nodemon index.mjs"
+    "start": "node index.js",
+    "debug": "nodemon index.js"
   },
   "dependencies": {
     "dotenv": "^17.3.1"
