@@ -1,4 +1,4 @@
-import {stdin, stdout, stderr, argv} from "node:process";
+import {stdin, stdout, stderr, argv, exit} from "node:process";
 
 let a = null;
 let b = null;
@@ -58,6 +58,6 @@ else if ((x1>=0)&&(x2>=0))
 else
 {
     stdout.write(`Корни уравнения не найдены.\n`);
-    exit(-1);
+    exit(2);
 }
 
