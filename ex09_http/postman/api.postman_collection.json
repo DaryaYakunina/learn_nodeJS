@@ -16,12 +16,10 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:3000/api/books",
-              "protocol": "http",
+              "raw": "{{url}}/api/books",
               "host": [
-                "localhost"
+                "{{url}}"
               ],
-              "port": "3000",
               "path": [
                 "api",
                 "books"
@@ -37,7 +35,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Преступление и наказание\",\r\n    \"author\": \"Ф.М. Достоевский\",\r\n    \"description\": \"«Преступление и наказание» Ф.М. Достоевского — это психологический и философский роман о бедном студенте Родионе Раскольникове, который убивает старуху-процентщицу, чтобы проверить свою теорию о разделении людей на «право имеющих» (Наполеонов) и «тварей дрожащих». \"\r\n}",
+              "raw": "{\r\n    \"name\": \"Преступление и наказание\",\r\n    \"author\": \"Ф.М. Достоевски\",\r\n    \"description\": \"«Преступление и наказание» Ф.М. Достоевского — это психологический и философский роман о бедном студенте Родионе Раскольникове, который убивает старуху-процентщицу, чтобы проверить свою теорию о разделении людей на «право имеющих» (Наполеонов) и «тварей дрожащих». \"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -45,12 +43,10 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3000/api/books",
-              "protocol": "http",
+              "raw": "{{url}}/api/books",
               "host": [
-                "localhost"
+                "{{url}}"
               ],
-              "port": "3000",
               "path": [
                 "api",
                 "books"
@@ -66,7 +62,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Преступление и наказание...\"\r\n}",
+              "raw": "{\r\n        \"author\": \"Достоевский Ф.М.\",\r\n        \"description\": \"«Преступление и наказание» Ф.М. Достоевского — это психологический и философский роман о бедном студенте Родионе Раскольникове\"\r\n    }",
               "options": {
                 "raw": {
                   "language": "json"
@@ -74,16 +70,14 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3000/api/books/123",
-              "protocol": "http",
+              "raw": "{{url}}/api/books/{{id}}",
               "host": [
-                "localhost"
+                "{{url}}"
               ],
-              "port": "3000",
               "path": [
                 "api",
                 "books",
-                "123"
+                "{{id}}"
               ]
             }
           },
@@ -104,16 +98,14 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3000/api/books/123",
-              "protocol": "http",
+              "raw": "{{url}}/api/books/{{id}}",
               "host": [
-                "localhost"
+                "{{url}}"
               ],
-              "port": "3000",
               "path": [
                 "api",
                 "books",
-                "123"
+                "{{id}}"
               ]
             }
           },
@@ -125,16 +117,14 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:3000/api/books/123",
-              "protocol": "http",
+              "raw": "{{url}}/api/books/{{id}}",
               "host": [
-                "localhost"
+                "{{url}}"
               ],
-              "port": "3000",
               "path": [
                 "api",
                 "books",
-                "123"
+                "{{id}}"
               ]
             }
           },
@@ -146,16 +136,14 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "http://localhost:3000/api/books/123",
-              "protocol": "http",
+              "raw": "{{url}}/api/books/{{id}}",
               "host": [
-                "localhost"
+                "{{url}}"
               ],
-              "port": "3000",
               "path": [
                 "api",
                 "books",
-                "123"
+                "{{id}}"
               ]
             }
           },
@@ -194,7 +182,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3000/api/books",
+          "raw": "http://localhost:3000/api/order",
           "protocol": "http",
           "host": [
             "localhost"
@@ -202,7 +190,7 @@
           "port": "3000",
           "path": [
             "api",
-            "books"
+            "order"
           ]
         }
       },
